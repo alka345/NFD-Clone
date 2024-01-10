@@ -1,5 +1,4 @@
 import HeroSection from "../HeroSection/HeroSection";
-import MainSection from "../MainSection/MainSection";
 import Navbar from "../Navbar/Navbar";
 
 
@@ -11,15 +10,11 @@ function Home () {
 
                  </Navbar>
                   <HeroSection></HeroSection> 
-                <MainSection></MainSection>
+                
 
         </div>
     );
-//     <div>
-//      <Navbar> 
-        
-//          </Navbar> 
-//  </div>
+
     }
 
 

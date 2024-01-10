@@ -7,9 +7,9 @@ export default function HeroSection() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return ( 
-    <div className='grid grid-cols-2 divide-x mt-4 mx-6 border-solid rounded-3xl '>
+    <div className='grid lg:grid-cols-2 sm:grid-cols-1 divide-x mt-4 mx-6  '>
 
-    <div className="bg-white border-solid  rounded-l-3xl">
+    <div className="bg-white border-solid  lg:rounded-l-3xl sm:rounded-3xl sm:mx-15">
     
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
@@ -25,7 +25,7 @@ export default function HeroSection() {
           />
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-10">
-        <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+        {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Announcing our next round of funding.{' '}
               <a href="#" className="font-semibold text-indigo-600">
@@ -33,7 +33,7 @@ export default function HeroSection() {
                 Read more <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             NFD platform <br />
@@ -45,19 +45,19 @@ export default function HeroSection() {
             <div className="  mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md shadow-indigo-100  shadow-lg bg-white px-3.5 py-2.5 text-sm font-semibold text-black hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md shadow-indigo-100  shadow-lg bg-white px-3.5 py-2.5 text-sm font-semibold text-black hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:invisible"
               >
                Info in one <br /> place
               </a>
               <a
                 href="#"
-                className="rounded-md shadow-indigo-100  shadow-lg bg-white px-3.5 py-2.5 text-sm font-semibold text-black hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md shadow-indigo-100  shadow-lg bg-white px-3.5 py-2.5 text-sm font-semibold text-black hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:invisible"
               >
              Private <br /> tools
               </a>
               <a
                 href="#"
-                className="rounded-md shadow-indigo-100  shadow-lg bg-white px-3.5 py-2.5 text-sm font-semibold text-black  hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md shadow-indigo-100  shadow-lg bg-white px-3.5 py-2.5 text-sm font-semibold text-black  hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:invisible"
               >
               Wide  <br />functionality
               </a>
@@ -101,7 +101,7 @@ export default function HeroSection() {
 
 {/* split */}
 
-    <div className="bg-slate-900 border-solid rounded-r-3xl ">
+    <div className="bg-slate-900 border-solid lg:rounded-r-3xl sm:rounded-lg  sm:mx-25">
     
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
@@ -121,10 +121,7 @@ export default function HeroSection() {
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-white-900 hover:ring-gray-900/20">
               Software by NFD.{' '}
-              {/* <a href="#" className="font-semibold text-indigo-600"> */}
-                {/* <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span> */}
-              {/* </a> */}
+            
             </div>
           </div>
           <div className="text-center">
